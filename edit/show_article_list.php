@@ -35,7 +35,7 @@ $stmh->execute();
     <a href="./write_article.php">新規作成</a>
     <br><br>
     画像投稿:<br>
-    <form method="post" action="" name="form1">
+    <form method="post" action="upload_photo.php" name="form1" enctype="multipart/form-data">
       名前: <input type="text" name="pic_name"><br>
       <input type="file" name="picture">
       <input type="submit" name="button" value="送信"><br>
