@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Input your ID and Password."
-AuthUserFile /home/takumi/public_html/Blog/admin/edit
-#require valid-user

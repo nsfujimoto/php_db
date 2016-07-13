@@ -1,7 +1,0 @@
-#AuthType Basic
-#AuthName "Input your ID and Password."
-#AuthUserFile /home/takumi/public_html/Blog/admin/edit/.htpasswd
-#require valid-user
-order deny,allow
-deny from all
-allow from 192.168.0.

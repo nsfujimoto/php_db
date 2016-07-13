@@ -17,6 +17,7 @@ $stmh->execute();
         padding: 5px;
     }
 </style>
+
     <h3>記事一覧:</h3>
     <table border="1" style="border-spacing:0; margin:5px 0;">
         <!--<tr><th>編集</th> <th>削除</th></tr>-->
@@ -34,10 +35,15 @@ $stmh->execute();
 
     <a href="./write_article.php">新規作成</a>
     <br><br>
+    <a href="../../Album/show_photos.php">画像一覧</a>
+    <br><br>
     画像投稿:<br>
     <form method="post" action="upload_photo.php" name="form1" enctype="multipart/form-data">
       名前: <input type="text" name="pic_name"><br>
       <input type="file" name="picture">
       <input type="submit" name="button" value="送信"><br>
     </form>
+    <?php
+        echo date("YmdHis");
+    ?>
 </html>
